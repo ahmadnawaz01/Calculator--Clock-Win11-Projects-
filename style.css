@@ -82,3 +82,7 @@ button:hover {
   box-shadow: 0 0 10px rgba(245, 222, 179, 0.4);
   transform: translateY(-2px);
 }
+.qr{
+  font-size: 30px;
+  padding-top: 15px
+}
