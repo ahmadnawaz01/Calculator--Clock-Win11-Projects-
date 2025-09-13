@@ -23,6 +23,7 @@ async function fetchDefinition() {
   } catch (error) {
     console.error(error);
     document.getElementById("word").textContent = "";
-    document.getElementById("definitions").innerHTML = "<li>Error fetching definition.</li>";
+    document.getElementById("definitions").innerHTML = "<li>Word not found.</li>";
   }
 }
+
